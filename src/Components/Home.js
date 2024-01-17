@@ -19,26 +19,26 @@ const Home = () => {
     rootMargin: '-50px 0px', // Adjust root margin based on your design
   });
 
-  useEffect(() => {
-    const intervalId = setInterval(() => {
-      if (lineIndex < staticContent[currentItemIndex].text.length - 1) {
-        setLineIndex((prevIndex) => prevIndex + 1);
-      } else {
-        setLineIndex(0);
-        setCurrentItemIndex((prevIndex) => (prevIndex + 1) % staticContent.length);
-      }
-    }, 2500);
+  // useEffect(() => {
+  //   const intervalId = setInterval(() => {
+  //     if (lineIndex < staticContent[currentItemIndex].text.length - 1) {
+  //       setLineIndex((prevIndex) => prevIndex + 1);
+  //     } else {
+  //       setLineIndex(0);
+  //       setCurrentItemIndex((prevIndex) => (prevIndex + 1) % staticContent.length);
+  //     }
+  //   }, 2500);
 
-    return () => clearInterval(intervalId);
-  }, [lineIndex, currentItemIndex]);
+  //   return () => clearInterval(intervalId);
+  // }, [lineIndex, currentItemIndex]);
 
-  // Reset animation when not in view
-  useEffect(() => {
-    if (!inView) {
-      setCurrentItemIndex(0);
-      setLineIndex(0);
-    }
-  }, [inView]);
+  // // Reset animation when not in view
+  // useEffect(() => {
+  //   if (!inView) {
+  //     setCurrentItemIndex(0);
+  //     setLineIndex(0);
+  //   }
+  // }, [inView]);
 
   return (
     <div
@@ -72,7 +72,7 @@ const Home = () => {
         </h2>
         <h3 style={{ textAlign: 'center', whiteSpace: 'pre-line', fontSize: '2rem', color: '#4c4c4c' }}>
           From 15th April to 24th May <br /></h3>
-        <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSc3Ktu6UzX9pNLQWzd6yqhO0JVN7tSf3sauPPmgZPYKwyuzuA/viewform?usp=sf_link">
+        <a target="_blank" rel="noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSc3Ktu6UzX9pNLQWzd6yqhO0JVN7tSf3sauPPmgZPYKwyuzuA/viewform?usp=sf_link">
           <button className="btn btn-lg btn-outline-primary" >
             Register Now <FontAwesomeIcon icon={faArrowRight} style={{ marginLeft: "5px" }} />
           </button>

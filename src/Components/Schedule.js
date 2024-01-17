@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import ModelBody from "./ModelBody";
 
@@ -51,7 +50,7 @@ const Schedule = () => {
   };
 
   return (
-    <div className="schedule-container" style={{ padding: "0px", marginTop: '10vh', textAlign: 'center', boxShadow: 'rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px', padding: '2vh', background: '#fafafa' }}>
+    <div className="schedule-container" style={{ marginTop: '10vh', textAlign: 'center', boxShadow: 'rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px', padding: '2vh', background: '#fafafa' }}>
       <table className="table table-hover table-borderless table-lg">
         <thead >
           <tr className="table-dark">

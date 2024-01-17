@@ -88,6 +88,8 @@ development of algorithms and software. In the school program training will be 
                 </div>
             </>
             break;
+        default:
+            break;
     }
 
     return (

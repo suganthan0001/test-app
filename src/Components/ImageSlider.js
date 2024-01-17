@@ -53,7 +53,7 @@ const ImageSlider = () => {
       <h2 style={{ fontSize: '3rem', marginTop:'7vh' }}>Highlights of Our Department</h2>
       <img
         src={getImageName(imageIndex)}
-        alt={`Image ${imageIndex}`}
+        alt='image'
         style={imageStyle}
       />
     </div>
