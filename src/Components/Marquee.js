@@ -23,7 +23,7 @@ import i25 from '../images/image25.png';
 const MarqueeComponent = () => {
     return (
         <div className="marquee-container">
-            <h2 className="marquee-heading" style={{ fontSize: '3rem' }}>Our Reputable Recruiters</h2>
+            <h2 className="marquee-heading" style={{}}>Our Reputable Recruiters</h2>
             <div className="marquee-content">
                 <div className="marquee-item">
                     <img src={i1} alt="image1" />

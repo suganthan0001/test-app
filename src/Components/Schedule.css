@@ -1,0 +1,18 @@
+.syllabus {
+    font-size: 3rem;
+}
+
+
+@media (max-width: 800px) {
+    .syllabus {
+        font-size: 2rem;
+    }
+
+    .table-data h4{
+        font-size: 1rem !important;
+    }
+
+    .table-data {
+        font-size: 1rem !important;
+    }
+}

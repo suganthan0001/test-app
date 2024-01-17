@@ -61,7 +61,7 @@ const Features = () => {
 
   return (
     <div>
-      <h2 style={headingStyle}>Facilities Provided</h2>
+      <h2 className='highlights' style={headingStyle}>Facilities Provided</h2>
       <div style={containerStyle}>
         {features.map((feature, index) => (
           <a key={index} href={feature.link} target="_blank" rel="noopener noreferrer">

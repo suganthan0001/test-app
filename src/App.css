@@ -482,3 +482,14 @@ nav {
     width: 60%; /* Set width to 60% for laptop screens and larger */
   }
 }
+
+
+
+@media (max-width: 800px) {
+  .highlights{
+    font-size: 2rem !important;
+  }
+  .high-images{
+    width: 90% !important;
+  }
+}
