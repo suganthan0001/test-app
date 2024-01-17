@@ -40,12 +40,6 @@ const Aboutclg2 = () => {
     fontSize: '1rem',
   };
 
-  const headingStyle = {
-    fontSize: '3rem',
-    marginBottom: '2vh', // Add margin below the heading
-    textAlign: 'center', // Center the heading
-  };
-
   const handleHover = (index) => {
     const cards = document.querySelectorAll('.feature-card2');
     cards.forEach((card, i) => {

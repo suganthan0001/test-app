@@ -6,7 +6,7 @@ function ExampleCarouselImage({imageSource}) {
         <img
         className="d-block w-100"
         src={imageSource}
-        alt='image'
+        alt={`${imageSource}`}
       />
     </>
   )
