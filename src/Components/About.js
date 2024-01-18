@@ -41,7 +41,7 @@ const About = () => {
 
 
             <div className="about-buttons-container">
-              <a href="https://www.stjosephscse.com/#/"
+              {/* <a href="https://www.stjosephscse.com/#/"
                 target="_blank"
                 style={{
                   color: "white",
@@ -49,7 +49,7 @@ const About = () => {
                 }}
                 rel="noopener noreferrer" >
                 <button className="secondary-button">Home</button>
-              </a>
+              </a> */}
               <a
                 href={youtubeChannelURL}
                 target="_blank"
