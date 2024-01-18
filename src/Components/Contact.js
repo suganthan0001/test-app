@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   const handleButtonClick = () => {
-    const emailAddress = "hodcse@stjosephs.ac.in";
+    const emailAddress = "hodbiotech@stjosephs.ac.in";
     const subject = "Query about the Internship";
     const body = "Hello, I have a question.";
 
