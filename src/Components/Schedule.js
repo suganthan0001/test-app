@@ -61,7 +61,7 @@ const Schedule = () => {
         <tbody className="tbody">
           {tableData.map((row) => (
             <tr key={row.id} className="table-row" style={{ cursor: "pointer" }} onClick={() => handleModalShow(row.id)}>
-              <td ><h5 className="table-data">{row.col1}</h5></td>
+              <td ><h5 className="table-data days"><u>{row.col1}</u></h5></td>
               <td dangerouslySetInnerHTML={{ __html: row.col2 } } className="table-data"/>
             </tr>
           ))}

@@ -479,6 +479,9 @@ nav {
   border-radius: 10px;
 }
 
+
+
+
 @media (min-width: 992px) {
   .caro {
     width: 60%; /* Set width to 60% for laptop screens and larger */
